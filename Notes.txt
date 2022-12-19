@@ -1,0 +1,18 @@
+Wifi Password
+gec_surat_123
+
+Color #1 blue
+#22284a
+
+Color #2 red
+#d72b32
+
+Color #3 grey
+#eee
+
+ELHOD
+
+
+<a href='' target='_blank'> </a>
+
+assets/img/fnewgtulogo.png

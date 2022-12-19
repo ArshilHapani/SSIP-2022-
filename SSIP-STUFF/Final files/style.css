@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 80vh;
+    background-color: rgb(120, 120, 120);
+}
+.container .InputText{
+    /* position: relative; */
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 91.8vh;
+    height: 8vh;
+    text-decoration: none;
+    font-size: 350%;
+}
+.container .Send-Image img{
+    position: absolute;
+    cursor: pointer;
+    top: 91.8vh;
+    left: 130vh;
+    z-index: 10;
+    height: 8vh;
+    width: 8vh;
+}

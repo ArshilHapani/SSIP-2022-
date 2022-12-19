@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon Icon/Icon.jpg" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page__main">
+        <div class="block--background">
+            <div class="chatbot__overview">
+                <ul class="chatlist">
+                    <li class="bot__output bot__output--standard">Hey, I'm GTU Bot, Vidhya!</li>
+                    <li class="bot__output bot__output--standard">I will guide you 😊</li>
+                    <li class="bot__output bot__output--standard">Select the choice which you want to know! in under GTU
+                    </li>
+                    <li class="bot__output bot__output--standard">
+                        <span class="bot__output--second-sentence">You can ask me a bunch of things!</span>
+                        <ul>
+                            <li class="input__nested-list">Something<span class="bot__command">about us</span>
+                            </li>
+                            <li class="input__nested-list">GTU's' <span class="bot__command">Admission process</span>
+                            </li>
+                            <li class="input__nested-list">Maybe I could <span class="bot__command">help</span> (for
+                                more instructions)</li>
+                            <li class="input__nested-list">Type <span class="bot__command">commands</span> for a list of
+                                every command</li>
+
+                        </ul>
+                        Select the choice which you want to know! in under GTU
+                    </li>
+                    <div class="button-container " id="button">
+                        <br><br><br>
+                        <h3>Menu</h3>
+                        <button class="select-button" onclick="About()">About us</button>
+                        <button class="select-button" onclick="ExamForm()">Exam Form</button>
+                        <button class="select-button" onclick="ExamTimeTable()">Exam Time table</button>
+                        <button class="select-button" onclick="HallTicket()">Hall Ticket</button>
+                        <button class="select-button" onclick="Result()">Results</button>
+                        <button class="select-button" onclick="Admission()">Admission</button>
+                        <button class="select-button" onclick="Syllabus()">Syllabus</button>
+                        <button class="select-button" onclick="CircularRedirect()">Circulars</button>
+                        <button class="select-button" onclick="CheckPayment()">Check Payment Status</button>
+                        <button class="select-button" onclick="More()">More</button>
+                        <button class="select-button" onclick="Feedback()">Feedback</button>
+                        <button class="select-button" onclick="Scholarship()">Scholarship</button>
+                        <button class="select-button" onclick="MarkSystem()">Marking Scheme</button>
+                        <button class="select-button" onclick="QuickLink()">Quick Links</button>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="chatbox-area">
+                <form action="" id="chatform">
+                    <a href="#button" class="Navigate__Menu" >Menu</a>
+                    <textarea placeholder="Describe your query!" class="chatbox" id="chatbox" name="chatbox" resize: "none"
+                        minlength="2"></textarea>
+
+                    <input class="submit-button" type="submit" id="send" value="send">
+                    <br><br>
+
+
+
+                </form>
+
+            </div>
+            <div class="block--background"></div>
+
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
